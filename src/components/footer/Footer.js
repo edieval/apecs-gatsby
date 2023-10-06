@@ -48,7 +48,7 @@ function Footer() {
             </span>
             <span className="icon is-medium">
               <a
-                href="https://www.youtube.com/channel/UCCLIfNbu65a8AP5sxOys9-Q"
+                href="https://www.youtube.com/@associationapecs5623"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="icon-white block-transformation"
