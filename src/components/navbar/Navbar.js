@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../images/APECS-Logo_horizontal.png";
+import logo from "../../images/APECS-Logo-horizontal.png";
 import "./navbar.scss";
 import slugify from "../../utils/Slugify";
 import { graphql, Link, useStaticQuery } from "gatsby";
