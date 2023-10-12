@@ -3,7 +3,7 @@ threadsafe: true
 
 service: apecs-gatsby
 
-default_expiration: 300
+default_expiration: 60s
 
 handlers:
   # limit cache for json
