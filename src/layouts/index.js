@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
                   title="Boutique"
                 >
                   <ShopIcon />
-                <a />
+                </a>
                 //<FontAwesomeIcon icon={faGift} color="white" size="2x" />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
