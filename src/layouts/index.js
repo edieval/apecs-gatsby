@@ -24,7 +24,8 @@ const Layout = ({ children }) => {
                   className="icon-white block-transformation"
                   title="Boutique"
                 >
-                <ShopIcon />
+                  <ShopIcon />
+                <a />
                 //<FontAwesomeIcon icon={faGift} color="white" size="2x" />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
