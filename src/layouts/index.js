@@ -19,9 +19,9 @@ const Layout = ({ children }) => {
           <div className="level-right">
             <p className="level-item">
               <Link className="top-bandeau-link" to="/support/shop/Shop">
-                <FontAwesomeIcon icon={faBagShopping} color="white" size="2x" title="Boutique" />
+                <FontAwesomeIcon icon={faBagShopping} color="white" size="2x" />
                 &nbsp;
-                //<span className="is-hidden-touch">Boutique</span>
+                <span className="is-hidden-touch">Boutique</span>
               </Link>
             </p>
             <p className="level-item mr-2">
