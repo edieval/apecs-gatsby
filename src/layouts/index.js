@@ -5,6 +5,7 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "gatsby";
 import "./index.scss";
+import ShopIcon from "../images/svg/shop.svg";
 
 const Layout = ({ children }) => {
   return (
