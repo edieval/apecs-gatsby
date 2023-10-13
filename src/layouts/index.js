@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
           <div className="level-right">
             <p className="level-item">
               <Link className="top-bandeau-link" to="/support/shop/Shop">
-                <FontAwesomeIcon icon={faBagShopping} color="white" size="2x" bounce />
+                <FontAwesomeIcon icon={faBagShopping} color="white" size="2xs" pulse />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
               </Link>
