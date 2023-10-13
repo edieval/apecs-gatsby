@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
           <div className="level-right">
             <p className="level-item">
               <Link className="top-bandeau-link" to="/support/shop/Shop">
-                  <FontAwesomeIcon icon=ShopIcon color="white" size="2x" />
+                  <FontAwesomeIcon icon="fa-thin fa-bag-shopping" bounce size="2xs" style={{color: "#ffffff",}} />
                 //<FontAwesomeIcon icon={faGift} color="white" size="2x" />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
