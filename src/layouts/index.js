@@ -1,6 +1,7 @@
 import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileAlt, faGift } from "@fortawesome/free-solid-svg-icons";
+import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "gatsby";
@@ -20,8 +21,7 @@ const Layout = ({ children }) => {
           <div className="level-right">
             <p className="level-item">
               <Link className="top-bandeau-link" to="/support/shop/Shop">
-                  <FontAwesomeIcon icon="fa-thin fa-bag-shopping" bounce size="2xs" style={{color: "#ffffff",}} />
-                //<FontAwesomeIcon icon={faGift} color="white" size="2x" />
+                <FontAwesomeIcon icon={faBagShopping} bounce size="2xs" style={{color: "#ffffff",}} />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
               </Link>
