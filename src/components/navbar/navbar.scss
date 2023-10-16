@@ -26,14 +26,16 @@
   top: 68px !important;
 }
 
+/* Test pour identifier si on est en version mobile ou desktop */
 @media screen and (max-width: 1024px) {
   .navbar {
     /* Original value 3.25rem */
-    max-height: 6.5rem;
+    max-height: 3.25rem;
   }
 
   .navbar-item-logo {
-    padding: 0 !important;
+    /* Original value 0 */
+    padding: 10px !important;
   }
 
   .nav-logo {
