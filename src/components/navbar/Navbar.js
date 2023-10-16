@@ -177,7 +177,7 @@ function Navbar() {
                 to="/inform/elasmobranches/Elasmobranches"
               >
                 Les élasmobranches
-                <hr className="navbar-divider">
+                <hr className="navbar-divider"/>
               </Link>
               <Link className="navbar-item" to="/inform/resources/resources">
                 Ressources
