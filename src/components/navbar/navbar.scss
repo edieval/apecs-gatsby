@@ -1,11 +1,13 @@
 @charset "utf-8";
 
+/* Définition des deux boutons plein à droite du menu horizontal "ADHERER" et "FAIRE UN DON" */
 .navbar-end > .navbar-item > .buttons > a.button {
   background-color: #22B14C;
   color: #ffffff;
   border-width: 0;
 }
 
+/* Définition du dernier bouton tout à droite du menu horizontal "SIGNALER UNE OBSERVATION" */
 .navbar-end > .navbar-item > .buttons > a.button.bordered {
   background-color: white;
   color: #0b2c51;
@@ -13,17 +15,21 @@
   border-color: #1f4e78;
 }
 
+/* Définition du menu en "burger" pour la version mobile */
 .navbar-burger:hover {
   background-color: white !important;
 }
 
+/* Distance entre le haut du menu horizontal et le haut de la page */
 .near-top {
+  /* Original value 34px */
   top: 68px !important;
 }
 
 @media screen and (max-width: 1024px) {
   .navbar {
-    max-height: 3.25rem;
+    /* Original value 3.25rem */
+    max-height: 6.5rem;
   }
 
   .navbar-item-logo {
