@@ -66,6 +66,11 @@
   .nav-logo {
     margin-bottom: 40px;
     max-height: 150px !important;
+    transition: .2s;
+      transition-property: all;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
   }
 
   .navbar-item.is-hoverable:hover .navbar-dropdown {
