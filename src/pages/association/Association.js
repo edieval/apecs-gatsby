@@ -41,7 +41,7 @@ export default function Association() {
 
   return (
     <div className="container">
-    <h1 className="title is-2 mt-4 has-text-centered">L'association</h1>
+      <h1 className="title is-2 mt-4 has-text-centered">L'association</h1>
       <hr className="divider" />
       <div key={posts[0].node.id}>
         <Article
