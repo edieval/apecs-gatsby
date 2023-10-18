@@ -13,7 +13,9 @@ $title-family: "Oswald", sans-serif;
 
 .is-default-font {
   /* font-family: $family-primary; */
-  font-family: $body-family;
+  font-family: "aileron", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 :empty.divider:before {
