@@ -12,7 +12,8 @@ $title-family: "Oswald", sans-serif;
 @import "~bulma-floating-button/dist/css/bulma-floating-button.sass";
 
 .is-default-font {
-  font-family: $family-primary;
+  /* font-family: $family-primary; */
+  font-family: $body-family;
 }
 
 :empty.divider:before {
