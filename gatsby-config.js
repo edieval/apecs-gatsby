@@ -31,7 +31,11 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Lato", "Oswald"],
+          families: ["Oswald"],
+        },
+        typekit: {
+          id: 'aileron',
+          api: '//use.typekit.net/tgl7oja.css'
         },
       },
     },
