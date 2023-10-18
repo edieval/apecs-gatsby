@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Article from "../../components/article/Article";
-import "../../global.scss";
 //test
 
 export default function Association() {
@@ -42,8 +41,7 @@ export default function Association() {
 
   return (
     <div className="container">
-    /*<h1 className="title is-2 mt-4 has-text-centered">L'association</h1>*/
-      <h1 className="GrosTitre">L'association</h1>
+    <h1 className="title is-2 mt-4 has-text-centered">L'association</h1>
       <hr className="divider" />
       <div key={posts[0].node.id}>
         <Article
