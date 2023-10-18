@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Article from "../../components/article/Article";
+import "../../global.scss";
 //test
 
 export default function Association() {
