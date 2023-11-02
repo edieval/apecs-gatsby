@@ -46,7 +46,7 @@ export default function Association() {
   `);
 
   return (
-    <div>
+    <div id="section1">
       <div className="banner">
         <img src={BannerMiss} alt="Mission-banner" />
         <div className="banner-content">
