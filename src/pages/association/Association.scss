@@ -9,7 +9,7 @@ $title-family: "Oswald", sans-serif;
     font-size: 5rem;
     position: fixed;
     left: -10px;
-    top: 550px;
+    top: 85px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     white-space: nowrap;
@@ -17,6 +17,7 @@ $title-family: "Oswald", sans-serif;
     text-transform: uppercase;
     background-color: white;
     background-clip: border-box;
+    z-index: -1;
   }
 
 .banner {
@@ -36,7 +37,7 @@ $title-family: "Oswald", sans-serif;
 }
 
 .banner-content h1 {
-    color:  #0a3d6e;
+    color:  #c86b32;
     font-family: $title-family;
     font-weight: bold;
     font-size: 6rem;
