@@ -3,7 +3,6 @@ import logo from "../../images/APECS-logo-header.png";
 import "./navbar.scss";
 import slugify from "../../utils/Slugify";
 import { graphql, Link, useStaticQuery } from "gatsby";
-import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
@@ -83,7 +82,7 @@ function Navbar() {
             </Link>
 
             <div className="navbar-dropdown">
-              <HashLink smooth to="association/Association/#section1">
+              <HashLink smooth to="/association/Association#section1">
                 Nos missions
               </HashLink>
               <Link className="navbar-item" to="/association/NosEquipes">
