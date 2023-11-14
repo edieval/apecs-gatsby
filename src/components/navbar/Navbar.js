@@ -82,9 +82,9 @@ function Navbar() {
             </Link>
 
             <div className="navbar-dropdown">
-              <HashLink smooth to="/association/Association#section1">
+              <Link className="navbar-item" to="/association/Missions">
                 Nos missions
-              </HashLink>
+              </Link>
               <Link className="navbar-item" to="/association/NosEquipes">
                 Nos équipes
               </Link>
