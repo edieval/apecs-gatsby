@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+$title-family: "Oswald", sans-serif;
+
+.titleBannerLeft {
+    color: #0b5aa6;
+    font-family: $title-family;
+    font-weight: bold;
+    font-size: 5rem;
+    position: fixed;
+    left: -10px;
+    top: 85px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    opacity: 0.25;
+    text-transform: uppercase;
+    background-color: white;
+    background-clip: border-box;
+    z-index: -1;
+  }
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-color: white;
+  }
+
+.banner img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+}
+
+.banner-content h1 {
+    color:  #c86b32;
+    font-family: $title-family;
+    font-weight: bold;
+    font-size: 6rem;
+    white-space: nowrap;  
+    text-transform: uppercase;
+    align-items: center;
+    opacity: 0.99;
+    justify-content: center;
+  }
