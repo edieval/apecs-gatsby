@@ -1,10 +1,28 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import parse from "html-react-parser";
-import replaceWPCss from "../../utils/ReplaceWPCss";
+import "./NosEquipes.scss";
+
+function replaceWPCssTeam(WPContent) {
+  return WPContent.replaceAll("wp-block-columns", "columns")
+    .replaceAll("wp-block-column", "column")
+    .replaceAll("wp-block-image", "imgTeam")
+    .replaceAll("<p", '<p class="pTeam"')
+    .replaceAll("<h3", '<h3 class="titleTeam3"')
+    .replaceAll("<h2", '<h2 class="titleTeam2"')
+    .replaceAll("<h1", '<h1 class="titleTeam1"')
+    .replaceAll("has-text-align-center", "has-text-centered content my-2")
+    .replaceAll("has-text-align-left", "has-text-left content my-2")
+    .replaceAll("has-text-align-right", "has-text-right content my-2")
+    .replaceAll(
+      "wp-block-button__link has-background wp-element-button",
+      "button is-rounded is-medium is-responsive"
+    )
+    .replaceAll("wp-block-button", "block my-4");
+}
 
 function WPcontentTeam(props) {
-  return <div>{parse(replaceWPCss(props.content))}</div>;
+  return <div>{parse(replaceWPCssTeam(props.content))}</div>;
 }
 
 export default function NosEquipes() {
@@ -53,6 +71,7 @@ export default function NosEquipes() {
         </div>
         <WPcontentTeam content={posts[0].node.content}></WPcontentTeam>
       </div>
+      <div></div>
     </div>
   );
 }
