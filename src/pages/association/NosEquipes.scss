@@ -50,3 +50,21 @@ $text-family: "Aileron", sans-serif;
     text-align: center;
     height:100%;
 }
+
+.titleBannerLeft {
+    color: #c86b32;
+    font-family: $title-family;
+    font-weight: bold;
+    font-size: 5rem;
+    position: fixed;
+    left: -10px;
+    top: 1.5em;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    opacity: 0.25;
+    text-transform: uppercase;
+    background-color: white;
+    background-clip: border-box;
+    z-index: -1;
+}
