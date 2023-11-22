@@ -1,0 +1,52 @@
+$title-family: "Oswald", sans-serif;
+$text-family: "Aileron", sans-serif;
+
+.titleTeam1 {
+  color: #0b5aa6;
+  font-family: $title-family;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.titleTeam2 {
+  color: #3185c5;
+  font-family: $title-family;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.titleTeam3 {
+  color: #0b5aa6;
+  font-family: $title-family;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.titleTeam4 {
+  color: #575756;
+  font-family: $title-family;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.pTeam {
+  color: #1d1d1b;
+  font-family: $text-family;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  text-justify: auto;
+  tab-size: 4;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-indent: 12%;
+  padding-top: 1rem;
+}
+
+.imgTeam {
+    text-align: center;
+    height:100%;
+}
