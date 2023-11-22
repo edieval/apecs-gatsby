@@ -1,6 +1,11 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import Article from "../../components/article/Article";
+import parse from "html-react-parser";
+import replaceWPCss from "../../utils/ReplaceWPCss";
+
+function WPcontentTeam(props) {
+  return <div>{parse(replaceWPCss(props.content))}</div>;
+}
 
 export default function NosEquipes() {
   const {
@@ -39,18 +44,15 @@ export default function NosEquipes() {
   `);
 
   return (
-    <div className="container">
-      <h1 className="title is-2 mt-4 has-text-centered">Nos équipes</h1>
-      <hr className="divider" />
-      {posts.map((equipe, index) => (
-        <div key={equipe.node.id}>
-          <Article
-            title={equipe.node.title}
-            content={equipe.node.content}
-          ></Article>
-          <div className="divider is-info" />
+    <div>
+      <div className="container">
+        <div className="columns is-mobile has-text-centered mb-6">
+          <div className="columns">
+            <h2 className="titleBannerLeft">{posts[0].node.title}</h2>
+          </div>
         </div>
-      ))}
+        <WPcontentTeam content={posts[0].node.content}></WPcontentTeam>
+      </div>
     </div>
   );
 }
