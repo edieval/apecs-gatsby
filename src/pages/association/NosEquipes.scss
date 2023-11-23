@@ -72,7 +72,7 @@ $text-family: "Aileron", sans-serif;
     font-size: 5rem;
     position: fixed;
     left: -10px;
-    top: 500px;
+    top: 650px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     white-space: nowrap;
@@ -97,12 +97,12 @@ $text-family: "Aileron", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 356px;
+  height: 500px;
   background-color: white;
 }
 
 .banner img {
-height: 356px;
+height: 500px;
 width: 100%;
 object-fit: cover;
 position: absolute;
