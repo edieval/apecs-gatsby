@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import parse from "html-react-parser";
 import "./NosEquipes.scss";
-import BannerTeam from "../../images/requin-taupe.jpg";
+import BannerTeam from "../../images/team-banner.png";
 
 function replaceWPCssTeam(WPContent) {
   return WPContent.replaceAll("wp-block-columns", "columns")
