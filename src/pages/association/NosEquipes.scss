@@ -47,6 +47,7 @@ $text-family: "Aileron", sans-serif;
   padding-top: 1rem;
 }
 
+
 .pDefault {
   color: white;
   font-family: $text-family;
@@ -65,6 +66,7 @@ $text-family: "Aileron", sans-serif;
   background-clip: border-box;
 }
 
+
 .imgTeam {
     text-align: center;
     height:100%;
@@ -77,11 +79,13 @@ $text-family: "Aileron", sans-serif;
     font-size: 5rem;
     position: fixed;
     left: -10px;
+
     top: 350px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     white-space: nowrap;
     opacity: 0.20;
+
     text-transform: uppercase;
     background-color: white;
     background-clip: border-box;
@@ -125,3 +129,4 @@ top: 0px;
   opacity: 0.99;
   justify-content: center;
 }
+

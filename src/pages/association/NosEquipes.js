@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import parse from "html-react-parser";
 import "./NosEquipes.scss";
+
 import BannerTeam from "../../images/home.jpg";
 
 function replaceWPCssTeam(WPContent) {
