@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import parse from "html-react-parser";
 import "./NosEquipes.scss";
-import BannerTeam from "../../images/team-banner.png";
+import BannerTeam from "../../images/home.jpg";
 
 function replaceWPCssTeam(WPContent) {
   return WPContent.replaceAll("wp-block-columns", "columns")
@@ -66,39 +66,35 @@ export default function NosEquipes() {
     <div>
       <div className="banner">
         <img src={BannerTeam} alt="Team-banner" />
+        <div className="banner-content">
+          <h1>Nos Equipes</h1>
+        </div>
       </div>
-      <div className="bannerWorker"></div>
+      <p className="pDefault">
+        {" "}
+        Notre association est constituée de nombreux membres aux status et aux
+        fonctions différentes. Chacun à son échelle contribue à la bonne
+        réalisation des projets et des missions de l'APECS. <br /> Le coeur de
+        l'association, ce sont nos salariés. Forts de leurs compétences et de
+        leurs expertises, ils ont en charge la mise en œuvre des projets. Ils
+        travaillent dans nos locaux et sont heureux de vous y acceuillir. Ils
+        sont régulièrement épaulés par nos volontaires en service civique et nos
+        stagiaires qui viennent découvrir le monde associatif, la préservation
+        et l'étude des élasmobranches.
+        <br /> Notre association est gérée par un Conseil d’Administration
+        composé uniquement de bénévoles. Chaque année, lors de l'Assemblée
+        Générale Ordinaire, l'ensemble des adhérents participent à l'élection de
+        ce conseil. Le conseil d'administration 2023/2024 se compose de 10
+        membres aux profils très variés. Un bureau composé d'un président, d'une
+        trésorière et d'un secrétaire a été élu par le conseil après l'assemblée
+        générale 2023. <br /> <br />
+      </p>
       <div className="container">
         <div className="columns is-mobile has-text-centered mb-6">
           <div className="columns">
             <h2 className="titleBannerLeft">{posts[0].node.title}</h2>
           </div>
         </div>
-        <p className="pDefault">
-          {" "}
-          Notre association est constituée de nombreux membres aux status et aux
-          fonctions différentes. Chacun à son échelle contribue à la bonne
-          réalisation des projets et des missions de l'APECS.{" "}
-        </p>
-        <p className="pDefault">
-          {" "}
-          Le coeur de l'association, ce sont nos salariés. Forts de leurs
-          compétences et de leurs expertises, ils ont en charge la mise en œuvre
-          des projets. Ils travaillent dans nos locaux et sont heureux de vous y
-          acceuillir. Ils sont régulièrement épaulés par nos volontaires en
-          service civique et nos stagiaires qui viennent découvrir le monde
-          associatif, la préservation et l'étude des élasmobranches.
-        </p>
-        <p className="pDefault">
-          {" "}
-          Notre association est gérée par un Conseil d’Administration composé
-          uniquement de bénévoles. Chaque année, lors de l'Assemblée Générale
-          Ordinaire, l'ensemble des adhérents participent à l'élection de ce
-          conseil. Le conseil d'administration 2023/2024 se compose de 10
-          membres aux profils très variés. Un bureau composé d'un président,
-          d'une trésorière et d'un secrétaire a été élu par le conseil après
-          l'assemblée générale 2023. <br /> <br />
-        </p>
         <WPcontentTeam content={posts[0].node.content}></WPcontentTeam>
       </div>
     </div>

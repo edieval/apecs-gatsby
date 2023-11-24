@@ -48,7 +48,7 @@ $text-family: "Aileron", sans-serif;
 }
 
 .pDefault {
-  color: #1d1d1b;
+  color: white;
   font-family: $text-family;
   font-weight: lighter;
   font-size: 1.25rem;
@@ -57,7 +57,12 @@ $text-family: "Aileron", sans-serif;
   overflow-wrap: break-word;
   text-align: start;
   text-indent: 8%;
-  padding-top: 1rem;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #62addb;
+  background-size:auto;
+  background-clip: border-box;
 }
 
 .imgTeam {
@@ -72,7 +77,7 @@ $text-family: "Aileron", sans-serif;
     font-size: 5rem;
     position: fixed;
     left: -10px;
-    top: 650px;
+    top: 350px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     white-space: nowrap;
@@ -97,14 +102,26 @@ $text-family: "Aileron", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 250px;
   background-color: white;
 }
 
 .banner img {
-height: 500px;
+height: 350px;
 width: 100%;
 object-fit: cover;
 position: absolute;
 top: 0px;
+}
+
+.banner-content h1 {
+  color: white;
+  font-family: $title-family;
+  font-weight: bold;
+  font-size: 4rem;
+  white-space: nowrap;  
+  text-transform: uppercase;
+  align-items:center ;
+  opacity: 0.99;
+  justify-content: center;
 }
