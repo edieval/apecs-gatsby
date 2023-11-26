@@ -106,7 +106,7 @@ const IndexPage = () => {
               <div className="column is-narrow is-one-third block-transformation">
                 <Link
                   className="container has-text-centered title"
-                  to="/act/Benevole"
+                  to="/support/adhesion/Adhesion"
                 >
                   <div className="bd-notification is-primary has-text-centered">
                     <StaticImage
