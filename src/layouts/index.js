@@ -18,11 +18,16 @@ const Layout = ({ children }) => {
 
           <div className="level-right">
             <p className="level-item">
-              <Link className="top-bandeau-link" to="/support/shop/Shop">
+              <a
+                className="top-bandeau-link"
+                href="https://www.boutique.asso-apecs.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faBagShopping} color="white" size="2x" />
                 &nbsp;
                 <span className="is-hidden-touch">Boutique</span>
-              </Link>
+              </a>
             </p>
             <p className="level-item mr-2">
               <Link className="top-bandeau-link" to="/association/Contact">

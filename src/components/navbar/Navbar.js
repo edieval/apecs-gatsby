@@ -163,6 +163,8 @@ function Navbar() {
                 target="_blank"
                 rel="noreferrer"
               >
+                Boutique
+              </a>
             </div>
           </div>
 
