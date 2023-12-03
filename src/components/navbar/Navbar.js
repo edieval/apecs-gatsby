@@ -157,9 +157,12 @@ function Navbar() {
               >
                 Devenir partenaire
               </Link>
-              <Link className="navbar-item" to="/support/shop/Shop">
-                Boutique
-              </Link>
+              <a
+                className="navbar-item"
+                href="https://www.boutique.asso-apecs.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
             </div>
           </div>
 
