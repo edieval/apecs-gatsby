@@ -169,7 +169,7 @@ function Navbar() {
           </div>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <Link to="/inform/Inform" className="navbar-link is-arrowless">
+            <Link to="/inform/actualites/Actualites" className="navbar-link is-arrowless">
               S'INFORMER
             </Link>
 
