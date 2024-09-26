@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+$title-family: "Oswald", sans-serif;
+
+.article-container {
+  min-width: 200px;
+}
+
+.background-hero {
+  background-size: cover !important;
+  background-attachment: local;
+}
+
+.hero-body {
+  min-height: 400px;
+}
+
+.notification.article-background {
+  background-color: #ffffff;
+}
+
+.notification.article-background.hidden {
+  display: none;
+}
+
+.image.main-article-image > img {
+  max-height: 300px;
+}
+
+hr.divider.light {
+  border-top: 2px solid lightgray;
+  margin: 0.5rem 0;
+}
+
+ul {
+  list-style: inside disc !important;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.min-width {
+  min-width: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .bordered-right {
+    border-right: lightgray solid medium;
+  }
+}
+
+.columns.without-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.titleBannerLeft {
+  color: #0b5aa6;
+  font-family: $title-family;
+  font-weight: bold;
+  font-size: 6rem;
+  position: fixed;
+  left: -10px;
+  top: 100px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  opacity: 0.2;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-image: url(../../images/missions-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

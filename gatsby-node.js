@@ -9,7 +9,7 @@ const path = require(`path`);
 exports.createPages = async (gatsbyUtilities) => {
   // Query our posts from the GraphQL server
   const actions = await getActionsPosts(gatsbyUtilities);
-
+  
   console.log(`creating ${actions.length} pages`);
 
   // If there are no posts in WordPress, don't do anything
